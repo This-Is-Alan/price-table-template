@@ -1,0 +1,213 @@
+/* || GLOBAL STYLES */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;
+  margin: 0;
+}
+
+/* || SECTION STYLES */
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+section {
+  background-color: rgba(250, 248, 251, 1);
+  width: 80rem;
+  height: 84rem;
+}
+
+/* || TITLE SECTION */
+
+.row__title {
+  margin: 3rem;
+  text-align: center;
+}
+
+.row__main,
+.row__title-sub,
+.row__title-desc {
+  display: block;
+}
+.row__title-main {
+  color: rgba(11, 206, 154, 1);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.row__title-sub {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+.row__title-desc {
+  font-size: 2.7rem;
+  font-weight: 300;
+}
+
+/* || CARD SECTION */
+
+.card__container {
+  display: flex;
+  margin-top: 7rem;
+  justify-content: space-between;
+  padding: 0rem 5rem;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 0px 41px 2px rgba(127, 63, 152, 0.05);
+  width: 30%;
+  padding-bottom: 4rem;
+  border-radius: 0.5rem;
+}
+
+.card__head {
+  color: rgba(127, 63, 152, 1);
+  padding-top: 1.2rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.card__price-wrapper {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 2rem;
+}
+
+.card__dollar {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.card__price {
+  font-size: 5.5rem;
+  font-weight: 400;
+  margin: 1.3rem 0;
+  display: contents;
+}
+
+.card__cents {
+  align-self: flex-start;
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.card__subs-wrapper {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 2rem;
+  position: relative;
+  padding: 0.6rem 1rem;
+  background-color: rgba(242, 240, 247, 1);
+  border-radius: 0.5rem;
+}
+
+.card__subs-month {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(115, 117, 123, 1);
+  margin: 0 1rem;
+}
+
+.card__subs-year {
+  background-color: white;
+  color: rgba(127, 63, 152, 1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.save {
+  background-color: rgba(11, 206, 154, 1);
+  color: #fff;
+  position: absolute;
+  padding: 0.3rem 0.4rem;
+  font-size: 0.85rem;
+  right: -0.8rem;
+  bottom: 3rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+}
+
+.card__desc {
+  font-size: 1.2rem;
+  padding: 2rem;
+  font-weight: 600;
+  color: rgba(115, 117, 123, 1);
+}
+
+.card__butn {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.card__butn--item {
+  background-color: rgba(11, 206, 154, 1);
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card__cta {
+  bottom: 2rem;
+  box-shadow: 0px 0px 41px 2px rgba(127, 63, 152, 0.25);
+  border-top: 4px solid rgba(127, 63, 152, 1);
+}
+.card,
+.card__cta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pop {
+  position: absolute;
+  padding: 0.3rem 1.1rem;
+  left: 5.5rem;
+  top: -1.2rem;
+  border-radius: 0.8rem;
+  background-color: rgba(127, 63, 152, 1);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.card__head,
+.card__price,
+.card__desc,
+.card__price-wrapper,
+.save {
+  text-align: center;
+}
+
+.card__list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  font-weight: 600;
+}
+
+.card__items {
+  list-style: none;
+  padding: 0.4rem;
+  display: inherit;
+  color: rgb(77, 75, 83);
+  font-size: 1rem;
+}
+
+.checkmark {
+  height: 1.6rem;
+  margin-right: 1rem;
+}
